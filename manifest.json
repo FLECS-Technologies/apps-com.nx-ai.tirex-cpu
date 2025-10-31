@@ -6,13 +6,6 @@
     "revision": "0",
     "image": "flecs.azurecr.io/com.nx-ai.tirex-cpu",
     "multiInstance": false,
-    "editors": [
-        {
-            "name": "UI",
-            "port": 8000,
-            "supportsReverseProxy": false
-        }
-    ],
     "env": [
         "MQTT_ENABLED=1",
         "MQTT_BROKER_HOST=flecs-mqtt",
