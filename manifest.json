@@ -8,7 +8,7 @@
     "multiInstance": false,
     "ports": [
         "8000:8000"
-    ]
+    ],
     "env": [
         "MQTT_ENABLED=1",
         "MQTT_BROKER_HOST=flecs-mqtt",
